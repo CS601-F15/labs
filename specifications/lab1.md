@@ -19,7 +19,7 @@ This document describes my environment, which includes Eclipse and the Github to
 Also keep in mind that I will expect the structure of your submission to be exactly as specified. You must use exactly the directory structure I provide or you will be required to revise and resubmit.
 
 ##CS601Labs Project##
-The CS601Labs project contains skeleton code and test suites for your first several assignments. For a given lab, you only need to implement the code to pass the tests for that assignment. For example, you will not need to implement the APIs in the cs601.concurrent package until Lab 3.
+The CS601Labs project contains skeleton code and test suites for your first several assignments. For a given lab, you only need to implement the code to pass the tests for that assignment. For example, you will not need to implement the APIs in the `cs601.concurrent` package until Lab 3.
 
 
 ##Requirements##
