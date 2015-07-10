@@ -26,7 +26,9 @@ The CS601Labs project contains skeleton code and test suites for your first seve
 
 For Lab 1, you are required to implement a *subset* of the methods in the class `cs601.yelpapp.data.YelpStore`. You must implement a default constructor, and the methods `addUser`, `addReview`, `addBusiness`, `toString`, and `printToFile`. 
 
-:warning: *You may not make any modifications to the API or the test cases provided.*
+:warning: You may not make any modifications to the API or the test cases provided.
+
+:warning: The only third-party library you may use for this project is [JSON Simple](https://code.google.com/p/json-simple/). The jar file required to use JSON Simple is already provided for you in the `lib` directory of the CS601Labs project on github. 
 
 You do *not* need to implement the get methods of `YelpStore` for Lab 1.
 
