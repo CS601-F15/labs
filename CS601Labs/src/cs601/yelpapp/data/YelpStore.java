@@ -135,6 +135,7 @@ public class YelpStore {
 
 	/**
 	 * Return the list of names of all users reviewing the business.
+	 * List will be sorted by the date the user submitted his/her review.
 	 * @param busId - ID of the business.
 	 * @return List of user names or empty list if no reviews.
 	 */
