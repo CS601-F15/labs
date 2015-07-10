@@ -43,4 +43,4 @@ Think carefully about **efficiency**. Some specific considerations include avoid
 
 
 ##Submission##
-Follow these instructions *carefully* in order to submit your lab: [Lab Guidelines](https://github.com/CS212-S15/lectures/blob/master/Notes/labguidelines.md)
+Follow these instructions *carefully* in order to submit your lab: [Lab Guidelines](https://github.com/CS601-F15/lectures/blob/master/Notes/labguidelines.md).
