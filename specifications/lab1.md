@@ -24,7 +24,7 @@ The CS601Labs project contains skeleton code and test suites for your first seve
 
 ##Requirements##
 
-For Lab 1, you are required to implement a *subset* of the methods in the class `cs601.yelpapp.data.YelpStore`. You must implement a default constructor, and the methods `addUser`, `addReview`, `addBusiness`, `toString`, and `printToFile`. 
+For Lab 1, you are required to implement a *subset* of the methods in the class `cs601.yelpapp.data.YelpStore`. You must implement a default constructor, and the methods `addUser`, `addReview`, `addBusiness`, `toString`, and `printToFile`. Note that not all of these methods may be thoroughly tested by the basic test cases provide. You are encouraged to implement additional tests cases and the instructor may run more tests before allowing you to qualify for code review.
 
 :warning: You may not make any modifications to the API or the test cases provided.
 
