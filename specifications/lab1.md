@@ -45,4 +45,6 @@ Think carefully about **efficiency**. Some specific considerations include avoid
 
 
 ##Submission##
+All tests in Lab1Test must pass before submission.
+
 Follow these instructions *carefully* in order to submit your lab: [Lab Guidelines](https://github.com/CS601-F15/lectures/blob/master/Notes/labguidelines.md).
