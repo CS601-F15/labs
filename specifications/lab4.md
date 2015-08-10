@@ -42,12 +42,13 @@ The `fetchBusinesses` method will take as a parameter a String representing a fi
  "yelpconsumerkey": "<key>",
  "yelpconsumersecret": "<key>",
  "yelptoken": "<key>",
- "yelptokensecret": "<key>",
+ "yelptokensecret": "<key>"
 }
 ```
 
-Make sure to closely read the [documentation](https://www.yelp.com/developers/documentation/v2/overview) to determine how to retrieve the necessary information.
+The test suite will use `input/keys.json` as the input file. You will need to modify this file to include your keys.
 
+Make sure to closely read the [documentation](https://www.yelp.com/developers/documentation/v2/overview) to determine how to retrieve the necessary information.
 
 ###Screen Scraper###
 
