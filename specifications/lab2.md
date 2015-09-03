@@ -7,6 +7,8 @@ For this lab, you will complete the `YelpStore` data structure you implemented i
 
 For Lab 2, you are required to complete all methods in the class `cs601.yelpapp.data.YelpStore`. You must implement the methods `getBuinesses`, `getRating`, and `getUsers`. 
 
+:warning: There is a small error in the javadoc for the `getRating` method. The parameter is the business ID, not the business name. To avoid merge conflicts, I recommend you update the javadoc yourself.
+
 :warning: You may not make any modifications to the API or the test cases provided.
 
 :warning: The only third-party library you may use for this project is [JSON Simple](https://code.google.com/p/json-simple/). The jar file required to use JSON Simple is already provided for you in the `lib` directory of the CS601Labs project on github. 
