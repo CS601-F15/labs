@@ -165,7 +165,7 @@ public class SimpleYelpStoreTest {
 			}		
 			if(json.get("type").equals("review")) {
 				String text =  ((String)json.get("text"));
-				if(text.length() > 140 || text.contains(System.getProperty("line.separator"))) {
+				if(text.length() > 140 || text.contains("\n")) {
 					continue;
 				}
 
