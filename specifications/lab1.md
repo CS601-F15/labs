@@ -21,6 +21,23 @@ Also keep in mind that I will expect the structure of your submission to be exac
 ##CS601Labs Project##
 The CS601Labs project contains skeleton code and test suites for your first several assignments. For a given lab, you only need to implement the code to pass the tests for that assignment. For example, you will not need to implement the APIs in the `cs601.concurrent` package until Lab 3.
 
+###Directory Structure
+The project on github has the following directory structure:
+
+```
+CS601Labs
+  -src
+  -test
+  -lib
+```
+
+`src` contains the skeleton source code, `test` contains the test suite, and `lib` contains the libraries (jar files) that you are allowed to use for your lab assignments.
+
+To successfully execute the tests, you will need to create three additional directories:
+
+- `results` - This is where the test suite will save the results produced by your code. Create this directory manually.
+-  `input` - Download a zipped version of this directory at [http://www.cs.usfca.edu/~srollins/cs601/input.zip](http://www.cs.usfca.edu/~srollins/cs601/input.zip). This directory contains all of the input files required by the test suite. Do not alter any of the files in this directory.
+-  `output` - Download a zipped version of this directory at [http://www.cs.usfca.edu/~srollins/cs601/output.zip](http://www.cs.usfca.edu/~srollins/cs601/output.zip). This directory contains the output that your results will be compared against. Do not alter any of the files in this directory.
 
 ##Requirements##
 
