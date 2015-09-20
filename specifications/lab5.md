@@ -65,7 +65,7 @@ Only the following APIs will be supported. The response to a request for any oth
 
 **`/reviewers`**
 
--Example: `http://localhost:1024/reviewers?businessID=4lkx2UdISL1-2hfcTYI0lg`
+- Example: `http://localhost:1024/reviewers?businessID=4lkx2UdISL1-2hfcTYI0lg`
 - Must have a required parameter of `businessID`. 
   - If the `businessID` is missing, return `404 - Not Found`.
 - If the `businessID` provided refers to a valid business the response will be a JSON document as follows. `success` must be true, the `users` array will be the value retrieved from your YelpStore, and the `businessID` is the value the server received as a parameter.
