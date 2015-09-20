@@ -1,3 +1,6 @@
+## Test suite for an HTTP server and RESTful API to expose YelpStore get* methods.
+## Requires python requests package.
+
 import sys
 import requests
 import unittest
