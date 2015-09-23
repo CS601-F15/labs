@@ -90,6 +90,7 @@ Only the following APIs will be supported. The response to a request for any oth
 ##Resources##
 1. [HTTP Request Specification](http://www.w3.org/Protocols/rfc2616/rfc2616-sec5.html)
 2. [HTTP Response Specification](http://www.w3.org/Protocols/rfc2616/rfc2616-sec6.html)
+3. A copy of the /input directory is available at `/home/public/cs601/input`. It is recommended that you modify your StoreBuilder to read data from this directory. 
 
 
 ##Submission##
