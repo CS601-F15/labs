@@ -99,7 +99,7 @@ This lab may be resubmitted until October 23, 2015. Solutions that are not fully
 There are two steps for submitting this lab:
 
 1. Commit your code to Github and create a new release as in previous labs.
-2. Launch your server on your assigned [microcloud node and port](mcassigns.md). For example, andyai1992 will make sure his server is running on node mc01 and is listening at port 2000.
+2. Launch your server on your assigned [microcloud node and port](mcassigns.md). For example, andyai1992 will make sure his server is running on node mc01 and is listening at port 2000. See [running remotely](https://github.com/CS601-F15/lectures/blob/master/Notes/microcloud.md) for more information.
 3. Make sure your server will continue running, even after you log out of the node! I recommend you learn a bit about [nohup](http://linux.101hacks.com/unix/nohup-command/).
 
 You are expected to implement your own test suite for this assignment. You may use curl and/or a web browser for initial testing. 
