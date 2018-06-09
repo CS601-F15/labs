@@ -11,17 +11,17 @@ For this lab, you will design and implement a data structure to store the data p
 
 If you are new to San Francisco, I recommend you begin by creating a [Yelp](https://www.yelp.com/) account and exploring the web site!
 
-##Getting Started##
+## Getting Started
 Begin by setting up your Java environment. You will find suggested guidelines here: [Environment setup](https://github.com/CS601-F15/lectures/blob/master/Notes/environment.md). 
 
 This document describes my environment, which includes Eclipse and the Github tool. You are not required to use either of these. You may, for example, use IntelliJ as your IDE and command line git for accessing your github account. Keep in mind, however, that I will provide limited support for tools other than the ones I suggest.
 
 Also keep in mind that I will expect the structure of your submission to be exactly as specified. You must use exactly the directory structure I provide or you will be required to revise and resubmit.
 
-##CS601Labs Project##
+## CS601Labs Project
 The CS601Labs project contains skeleton code and test suites for your first several assignments. For a given lab, you only need to implement the code to pass the tests for that assignment. For example, you will not need to implement the APIs in the `cs601.concurrent` package until Lab 3.
 
-###Directory Structure
+### Directory Structure
 The project on github has the following directory structure:
 
 ```
@@ -39,7 +39,7 @@ To successfully execute the tests, you will need to create three additional dire
 -  `input` - Download a zipped version of this directory at [http://www.cs.usfca.edu/~srollins/cs601/input.zip](http://www.cs.usfca.edu/~srollins/cs601/input.zip). This directory contains all of the input files required by the test suite. Do not alter any of the files in this directory.
 -  `output` - Download a zipped version of this directory at [http://www.cs.usfca.edu/~srollins/cs601/output.zip](http://www.cs.usfca.edu/~srollins/cs601/output.zip). This directory contains the output that your results will be compared against. Do not alter any of the files in this directory.
 
-##Requirements##
+## Requirements
 
 For Lab 1, you are required to implement a *subset* of the methods in the class `cs601.yelpapp.data.YelpStore`. You must implement a default constructor, and the methods `addUser`, `addReview`, `addBusiness`, `toString`, and `printToFile`. Note that not all of these methods may be thoroughly tested by the basic test cases provide. You are encouraged to implement additional tests cases and the instructor may run more tests before allowing you to qualify for code review.
 
@@ -55,13 +55,13 @@ The key element of this lab is the design of a data structure that will store al
 
 Think carefully about **efficiency**. Some specific considerations include avoiding storing duplicate data where possible and designing your data structure to optimize access to the data. Though you do not need to implement the get methods, look carefully at how the data will be accessed ensure efficiency.
 
-##Hints##
+## Hints
 1. Make sure to follow good coding practices, including adhering to the suggested [style guidelines](https://github.com/CS601-F15/lectures/blob/master/Notes/style.md).
 2. You may create additional supporting classes. My solution uses five additional classes. 
 3. It is highly recommended that you design your own test cases; do not just rely on the test cases provided for you.
 
 
-##Submission##
+## Submission
 All tests in Lab1Test must pass before submission.
 
 Follow these instructions *carefully* in order to submit your lab: [Lab Guidelines](https://github.com/CS601-F15/lectures/blob/master/Notes/labguidelines.md).
